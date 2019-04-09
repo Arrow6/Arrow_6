@@ -1,17 +1,10 @@
-//var text="Arrow";
+if(s.state=="on"){
+   s1="on";
+}else{
+  s1="off";
+}
 
-
-//var canvas=document.createElement("canvas");
-//canvas.width=500;
-//canvas.height=500;
-//canvas.id="message";
-
-//var c=canvas.getContext("2d");
-
-//c.fillText(text,250,250)
-//document.body.appendChild(canvas);
-
-var s1="on";
+var s1;
 
 var text = document.createElement("p");
 text.setAttribute("x",500);
