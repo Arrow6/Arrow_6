@@ -1,3 +1,5 @@
+var s=getElementById("s1");
+
 if(s.state=="on"){
    s1="on";
 }else{
