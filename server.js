@@ -4,6 +4,7 @@ var text="Arrow";
 var canvas=document.createElement("canvas");
 canvas.width=500;
 canvas.height=500;
+canvas.id="message";
 
 var c=canvas.getContext("2d");
 
