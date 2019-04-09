@@ -15,5 +15,5 @@ text.setAttribute("x",500);
 text.setAttribute("y",500);
 text.style.fontSize = '50';
 
-ext.textContent = 'Hello world!';
+text.textContent = 'Hello world!';
 document.body.appendChild(text);
