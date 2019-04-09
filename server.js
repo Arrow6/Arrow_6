@@ -10,10 +10,13 @@
 
 //c.fillText(text,250,250)
 //document.body.appendChild(canvas);
+
+var s1="on";
+
 var text = document.createElement("p");
 text.setAttribute("x",500);
 text.setAttribute("y",500);
 text.style.fontSize = '50';
 
-text.textContent = 'Hello world!';
+text.textContent = "Server 1:"+s1;
 document.body.appendChild(text);
