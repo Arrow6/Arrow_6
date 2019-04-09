@@ -8,3 +8,4 @@ canvas.height=500;
 var c=canvas.getContext("2d");
 
 c.fillText(text,250,250)
+document.body.appendChild(canvas);
